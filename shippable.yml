@@ -8,6 +8,8 @@ lein:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+  
+build_image: drydock/u12clo:tip
 
 # Running the test with Leiningen
 script:
